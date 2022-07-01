@@ -3,6 +3,23 @@
     padding: 0;
     box-sizing: border-box;
 }
-h1{
-    text-align: center;
+#play-btn{
+    height: 50px;
+    width: 100px;
+    border-radius: 10px;
+    color: rgb(236, 230, 222);
+    font-size: 20px;
+    background: linear-gradient(orange, green);
+    margin: 20px 20px;
+}
+.main-container{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    margin: 50px 50px;
+    border: 2px solid rgb(241, 119, 5);
+    border-radius: 5px;
+    width: 40rem;
+    height: 20rem;
 }
